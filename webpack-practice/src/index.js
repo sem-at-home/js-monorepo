@@ -7,3 +7,7 @@ console.log(greeting);
 const image = document.createElement('img');
 image.src = odinImage;
 document.body.appendChild(image);
+
+const header = document.createElement('h1');
+header.innerText = greeting
+document.body.append(header)
